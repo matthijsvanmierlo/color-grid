@@ -1,7 +1,7 @@
 public class Grid {
   int CELL_SIZE;
   Cell[][] cells;
-  // Default constructor for a grid
+  // Default constructor for a grid with cells size 50
   public Grid() {
     CELL_SIZE = 50;
     cells = new Cell[int(width / CELL_SIZE)][int(height / CELL_SIZE)];
@@ -13,10 +13,11 @@ public class Grid {
     }
   }
   // Constructor for grid given image
+  // ****NOTE for some reason it seems to be flipped over the y-axis...
   public Grid(PImage img) {
     // 2000 x 2000 image
     // Each cell should be 50 pixels each
-    CELL_SIZE = 50;
+    CELL_SIZE = 10;
     int numRows = img.height / CELL_SIZE;
     int numCols = img.width / CELL_SIZE;
     cells = new Cell[numRows][numCols];
