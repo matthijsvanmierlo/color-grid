@@ -4,8 +4,6 @@
 
 Colorizing images based on approximate pixel values and weights
 
-## Sample Output
-
-![si-1](sample-image-1.JPG)
+## Sample Image Output
 
 ![mw-1](milky-way-2-new.png)
