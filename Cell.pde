@@ -1,3 +1,6 @@
+/*
+Square grid cells...
+*/
 public class Cell {
 
   // Cell needs possible list of balls

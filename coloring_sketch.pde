@@ -12,7 +12,7 @@ void setup()
   size(750, 750);
   background(255);
   frameRate(60);
-  g = new Grid();
+  g = new Grid(loadImage("sample-image-1.JPG"));
 }
 
 void keyPressed(){
